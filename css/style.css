@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --color-white: #ffffff;
+}
+
+* {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  font-family: inherit;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+/* Navbar Start */
+.navbar {
+  background-color: var(--color-white);
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+
+.navbar .navbar-brand {
+  max-width: 175px;
+  height: 60px;
+}
+
+.navbar .navbar-nav .nav-item {
+  padding: 0 2rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1.8rem;
+  font-family: inherit;
+}
+
+/* Navbar End */
+
+/* Carousel Start */
+.carousel-inner {
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.carousel-item {
+  min-height: 90vh;
+  position: relative;
+}
+
+.carousel-item .promo__content {
+  position: absolute;
+  top: 30%;
+  width: 45%;
+}
+.carousel-item .promo__content h2 {
+  font-family: inherit;
+  font-size: 4.1rem;
+}
+
+.carousel-item .promo__content p {
+  font-family: inherit;
+  font-size: 1.8rem;
+  margin-top: 5rem;
+}
+.carousel-item .promo__content .btn {
+  margin-top: 5rem;
+}
+
+.carousel-item .promo__img img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 10px;
+  border: 0;
+  border-radius: 15px;
+  transition: 0.3s all;
+  background: #cecece;
+}
+
+.carousel-dark .carousel-indicators .active {
+  width: 45px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 156, 53, 1) 0%,
+    rgba(255, 208, 25, 1) 100%
+  );
+}
+
+/* Carousel End */
+
+/* Product Start */
+
+.products__wrapper {
+  margin-top: 5rem;
+}
+
+.products__wrapper .product__title {
+}
+.products__wrapper .product__heading h2 {
+  font-size: 3rem;
+  display: inline;
+}
+
+.products__wrapper .product__heading a {
+  font-family: inherit;
+  font-size: 2.2rem;
+  float: right;
+  color: #ff9d00;
+}
+
+.products__wrapper .card img {
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.products__wrapper .card {
+  border: 0;
+  border-radius: 15px;
+  margin-top: 5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 5rem;
+}
+
+.products__wrapper .card h5 {
+  font-size: 2.2rem;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+
+.products__wrapper .card p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #707070;
+}
+
+.products__wrapper .card h6 {
+  font-size: 2.4rem;
+  margin-top: 3rem;
+}
+/* Product End */
